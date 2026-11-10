@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@import "./index.css";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  ::selection {
+    background: var(--color-primary-200);
+    color: var(--color-primary-950);
+  }
+}
